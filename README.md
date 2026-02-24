@@ -1,4 +1,5 @@
-# 🧮 Python Calculator
+# Python Projects
+# 1. 🧮 Python Calculator
 
 A simple command-line calculator built with Python.
 
@@ -13,7 +14,7 @@ A simple command-line calculator built with Python.
 ```bash
 python calculator.py
 ```
-# 🎮 Number Guessing Game
+# 2. 🎮 Number Guessing Game
 
 A fun and interactive command-line game where you try to guess a randomly generated number! Test your luck and intuition!
 
@@ -127,6 +128,80 @@ main()       # Game loop with replay option
 - [ ] Multiplayer mode
 - [ ] Save high scores to file
 
+# 3. Todo List Application
+
+This To-Do List application allows users to add, view, and delete tasks, with tasks being saved to a file so they persist even after the program is closed.
+
+##  Features
+
+- ➕ Add Tasks – Add new tasks to your list
+- 📋 View Tasks – Display all saved tasks
+- ✅ Complete Tasks – Mark task as completed
+- ❌ Delete Tasks – Remove tasks by number
+- 📊 View Statistics – Shows completion rate
+- 🔍 Search Tasks – Search for a task
+- 💾 File Storage – Tasks are saved in a file
+- 🔄 Persistent Data – Tasks remain after restart
+- ⚠️ Input Validation – Handles invalid inputs safely
+- 🧠 Beginner-Friendly Logic
+
+## 🚀 How to Play
+
+### Prerequisites
+- Python 3.x installed ([Download Python](https://www.python.org/downloads/))
+
+### Installation & Running
+
+**Option 1: Clone and Run**
+```bash
+# Clone the repository
+git clone https://github.com/sakshidangi2006/python-projects.git
+
+# Navigate to directory
+cd python-projects-
+
+# Run the game
+python To_Do_List.py
+```
+
+## 📌 Sample Output
+```
+🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯
+Welcome to Smart To-Do List Manager!
+Stay organized and productive! 🚀
+🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯
+================================================
+               SMART TO-DO LIST
+================================================
+
+ MENU OPTIONS:
+   1. ➕ Add New Task
+   2. 📋 View All Tasks
+   3. ✅ Complete Task
+   4. 🗑️  Delete Task
+   5. 📊 View Statistics
+   6. 🔍 Search Tasks
+   7. 🚪 Exit
+
+  👉 Enter your choice(1-7): 1
+  ==================================================
+  ➕ ADD NEW TASK
+  ==================================================
+
+📝 Task title: complete python project
+
+🎯 Priority Level:
+   1. High 🔴
+   2. Medium 🟡
+   3. Low 🟢
+
+Select priority (1-3): 2
+
+✅ Task added successfully! (ID: 3)
+
+⏸️  Press Enter to continue...
+```
+
 ## 👤 Author
 
 **Sakshi Dangi**
@@ -139,8 +214,6 @@ main()       # Game loop with replay option
 ## 🙏 Acknowledgments
 
 - Built as a beginner Python project
-- Inspired by classic number guessing games
-
 ## 🆘 Troubleshooting
 
 **Problem: Game closes immediately**
@@ -164,7 +237,7 @@ main()       # Game loop with replay option
 
 ## What I Learned
   
-This project helped me understand:
+These projects helped me understand:
 - ✅ Using Python's `random` module
 - ✅ While loop implementation
 - ✅ User input validation
@@ -173,7 +246,7 @@ This project helped me understand:
 - ✅ Game logic and flow control
 - ✅ Breaking loops with conditions
 - ✅ Variable scope in functions
-
+- ✅ Structuring Python program properly
 
 ## Technologies Used
 - **Language:** Python 3.x
